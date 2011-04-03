@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:【東京電力】第2グループ / [Tokyo] Blackout for Group 2
+X-WR-TIMEZONE:Asia/Tokyo
+X-WR-CALDESC:東京電力 計画停電カレンダー（非公式）の第2グループ / [Tokyo] Blackout for Group 2\n\nサ
+ イト http://bit.ly/keikakuteiden
+BEGIN:VEVENT
+DTSTART:20110328T002000Z
+DTEND:20110328T040000Z
+DTSTAMP:20110328T143318Z
+UID:4mhql78ktsmpr499mbrkdnqvi4@google.com
+CREATED:20110321T154832Z
+DESCRIPTION:第2グループのA\,B\,Cのみ計画停電を実施します。\n東京電力プレスリリース\nhttp://twitter.com/#!
+ /OfficialTEPCO/status/51940462054998016\n\nThis group 2(A\, B\, C only) wil
+ l implement rolling blackouts.\n\n
+LAST-MODIFIED:20110327T110738Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:※中止 / CANCELED（ABCのみ）【東電】第2グループ / Group 2
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
