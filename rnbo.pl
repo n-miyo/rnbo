@@ -29,7 +29,7 @@ use warnings;
 use HTTP::Date;
 use Getopt::Long;
 
-my $VERSION = '1.0.0';
+my $VERSION = '1.0.1';
 
 my $DEFAULT_COMMAND = '/frontview/bin/autopoweroff &> /dev/null';
 my $DEFAULT_DIFF = (60 * 5);
