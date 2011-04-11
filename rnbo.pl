@@ -156,7 +156,7 @@ sub store_schedule() {
     while (<$icalh>) {
         $lastl = $_;
         if (/BEGIN:VEVENT/../END:VEVENT/) {
-            $cancel = 1 if /^SUMMARY:.*CANCELED/;
+            $cancel = 1 if /^SUMMARY:.*(CANCELED|OCCASIONAL)/;
             $subg = lc($1)
                 if /^SUMMARY:\x{ef}\x{bc}\x{88}([A-E]+).*\x{ef}\x{bc}\x{89}/;
             $s = parse_date($1) if /DTSTART:([0-9TZ]+)/;
